@@ -3,7 +3,6 @@
 /**
 * add_dnodeint_end - this adds a new node at the end
 * of a dlistint_t list
-*
 * @head: the head of the list
 * @n: the value of the element
 * Return: this is the address of the new element
@@ -28,12 +27,9 @@ while (h->next != NULL)
 h = h->next;
 h->next = new;
 }
-else
-Ju	{
+else	{
 *head = new;
 }
-
 new->prev = h;
-
 return (new);
 }
