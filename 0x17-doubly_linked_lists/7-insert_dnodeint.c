@@ -3,7 +3,6 @@
 /**
 * insert_dnodeint_at_index - this inserts a new node at
 * a given position
-*
 * @h: the head of the list
 * @idx: the index of the new node
 * @n: the value of the new node
@@ -49,6 +48,5 @@ head = head->next;
 i++;
 }
 }
-
 return (new);
 }
